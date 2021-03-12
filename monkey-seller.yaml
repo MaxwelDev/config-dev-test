@@ -1,0 +1,12 @@
+
+banner:
+  location: classpath:banner.txt
+spring:
+  application:
+    name: monkey-seller
+  datasources:
+  - name: monkey-seller-monkeymkt
+    url: jdbc:mysql://monkey-dev-app.cch7wxaj6bgy.us-east-1.rds.amazonaws.com:3306/monkeymkt_seller?zeroDateTimeBehavior=convertToNull&serverTimezone=GMT-3
+    username: admin_prd
+    password: '{cipher}852d408d6cb8ca03f449924da9ba8e6f9b09d45109455a55086600c56ecfaeaf'
+    driver-class-name: com.mysql.jdbc.Driver
