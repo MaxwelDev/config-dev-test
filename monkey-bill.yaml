@@ -8,10 +8,10 @@ spring:
   - name: defaultTenant
     url: jdbc:mysql://monkey-dev-app.cch7wxaj6bgy.us-east-1.rds.amazonaws.com:3306/monkey_bill?zeroDateTimeBehavior=convertToNull
     username: admin_prd
-    password: queiQu8i
+    password: '{cipher}06b2795e62d4803f0e82eb74f8a318590a4abd3f07e59731c0c15df213fb2bdd'
     driver-class-name: com.mysql.jdbc.Driver
   - name: monkey-bill-monkeymkt
     url: jdbc:mysql://monkey-dev-app.cch7wxaj6bgy.us-east-1.rds.amazonaws.com:3306/monkeymkt_bill?zeroDateTimeBehavior=convertToNull&serverTimezone=GMT-3
     username: admin_prd
-    password: queiQu8i
+    password: '{cipher}06b2795e62d4803f0e82eb74f8a318590a4abd3f07e59731c0c15df213fb2bdd'
     driver-class-name: com.mysql.jdbc.Driver
