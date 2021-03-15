@@ -6,7 +6,7 @@ spring:
     name: monkey-seller
   datasources:
   - name: defaultTenant
-    url: jdbc:mysql://monkey-dev-app.cch7wxaj6bgy.us-east-1.rds.amazonaws.com:3306/seller?zeroDateTimeBehavior=convertToNull&serverTimezone=GMT-3
+    url: jdbc:mysql://monkey-dev-app.cch7wxaj6bgy.us-east-1.rds.amazonaws.com:3306/monkey_bill?zeroDateTimeBehavior=convertToNull
     username: admin_prd
     password: queiQu8i
     driver-class-name: com.mysql.jdbc.Driver
